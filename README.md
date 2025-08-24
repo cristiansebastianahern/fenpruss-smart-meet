@@ -1,14 +1,47 @@
-# React + Vite
+# FENPRUSS Smart Meet
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web para transcripción y gestión de reuniones en tiempo real.
+Autor: Sebastian Ahern Ruiz
+e-mail: cristiansebastian.ahern@alumnos.ulagos.cl - sebastianahern@gmail.com - sebastianahern@proton.me
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎤 Transcripción de voz en tiempo real
+- 📝 Generación de actas de reunión
+- 💾 Exportación a PDF y DOCX
+- 🎨 Tema claro/oscuro
+- 📊 Visualizador de audio
+- 🐛 Panel de depuración
 
-## Expanding the ESLint configuration
+## Requisitos
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Node.js 18.x o superior
+- npm 9.x o superior
+
+Scripts Disponibles
+
+    npm run dev - Inicia el servidor de desarrollo
+    npm run build - Construye la aplicación para producción
+    npm run serve - Sirve la versión de producción localmente
+
+Tecnologías
+
+    React 18
+    Vite
+    Web Speech API
+    jsPDF
+    docx
 
 
+## Instalación
+
+```bash
+# Clonar el repositorio
+git clone https://github.com/cristiansebastianahern/fenpruss-smart-meet.git
+
+# Instalar dependencias
+cd fenpruss-smart-meet
+npm install
+
+# Iniciar en modo desarrollo
+npm run dev
